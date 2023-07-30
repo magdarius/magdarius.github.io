@@ -1,0 +1,260 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171717;
+    color: #fff;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+}
+#namep a{text-decoration: none; transition:  0.9s;}
+
+#namep h1{
+    margin-left: 1em;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    border: 3px solid #fff;
+    border-radius: 4px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 30px;
+    transition: 0.6s;
+}
+nav a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+}
+.background-section{
+    margin: 0;
+    padding: 0;
+}
+.background-section img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+
+}
+#sluzby h2{
+    font-family: 'Oxygen Mono';
+}
+#sluzby{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.textBlock p{
+    font-size: 1.3em;
+    font-family: 'Major Mono Display';
+}
+#sluzby span{
+    font-size: 1.3em;
+    font-family: 'Gothic';
+}
+.zoznamSluzieb li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #b10707;
+    font-family: 'Oxygen Mono';
+    
+}
+.Blog img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    opacity: 20%;
+    
+}
+.Blog{
+    margin: 0;
+    padding: 0;
+}
+#Akotofunguje{
+    text-align: center;
+}
+#Akotofunguje h2{
+    font-family: 'Oxygen Mono';
+}
+#Akotofunguje h4{
+    font-size: 1.4em;
+}
+
+#Akotofunguje li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #b10707;
+    font-family: 'Oxygen Mono';
+}
+li a{color: #ffffff;}
+li a:hover{ color: #d9ff00; }
+li a:focus{ color: #d9ff00; }
+#pageBottomImg img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    opacity: 10%;
+
+}
+#pageBottomImg{
+    padding: 0;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #000000; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: none /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    background-color: #676767;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #ff000098;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    margin-top: 5%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #5453533a;
+    border: 1px solid #ffffff29;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  footer h1 {
+    color: #000000;
+    font-size: 14px;
+    padding-left: 1.2em;
+    padding-bottom: 1em;
+  }
+  
+  footer img {
+    height: 5em;
+    width: 5em;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 1em;
+  }
+  
+  footer {
+    margin-top: 4em;
+    background-color: #ffffff;
+  }
+  
+  .socialMedia img {
+    width: 3em;
+    height: 3em;
+  }
+  
+  .footerText {
+    padding-top: 2em;
+    text-align: center; /* Align the text in the center */
+    margin: 0 auto; /* Center the <h1> horizontally */
+    margin-bottom: 1em; /* Adjust as needed */
+  }
+  
+  .socialMedia {
+    text-align: center; /* Center the social media icons */
+  }
+  
+  .icons {
+    display: inline-block; /* Use inline-block to make the icons horizontally aligned */
+  }
+  
+  .socialMedia a img {
+    padding: 1em;
+    margin: 0 0.4em; /* Add spacing between the icons */
+  }
+  /* Default styles for all screen sizes */
+
+/* Styles for screens with a maximum width of 768px (small screens) */
+@media (max-width: 768px) {
+    
+    #namep h1{font-size: 15px;}
+    nav a {margin: 0 5px; font-size: 10px;}
+    .background-section img{height: 10em;}
+    #sluzby h2{ font-size: 1em;}
+    #sluzby span{font-size: 1.3em;}
+    .textBlock p {font-size: 10px; }
+    .textBlock h3 {font-size: 15px;}
+    .zoznamSluzieb ul li{font-size: 10px; text-align: center;}
+    .zoznamSluzieb ul{padding-left: 0;}
+    .zoznamSluzieb{margin-left: auto; margin-right: auto; padding-left: 1em; padding-right: 1em; padding-bottom: 1em;}
+    #Akotofunguje h2{ font-size: 1em;}
+    #Akotofunguje h4{font-size: 15px;}
+    #Akotofunguje ul li{font-size: 10px;}
+    .Blog img{height: 3em;}
+    #pageBottomImg img{height: 7em;}
+    .container{width: 90%; border: none; }
+    .socialMedia a img{margin: 0 0.1em;}
+    
+
+
+  }
+  
+  /* Styles for screens with a maximum width of 480px (extra small screens) */
+  @media (max-width: 480px) {
+    
+    #namep h1{font-size: 15px;}
+    nav a {margin: 0 5px; font-size: 10px;}
+    .background-section img{height: 10em;}
+    #sluzby h2{ font-size: 1em;}
+    #sluzby span{font-size: 1.3em;}
+    .textBlock p {font-size: 10px; }
+    .textBlock h3 {font-size: 15px;}
+    .zoznamSluzieb ul li{font-size: 10px; text-align: center;}
+    .zoznamSluzieb ul{padding-left: 0;}
+    .zoznamSluzieb{margin-left: auto; margin-right: auto; padding-left: 1em; padding-right: 1em; padding-bottom: 1em;}
+    #Akotofunguje h2{ font-size: 1em;}
+    #Akotofunguje h4{font-size: 15px;}
+    #Akotofunguje ul li{font-size: 10px;}
+    .Blog img{height: 3em;}
+    #pageBottomImg img{height: 7em;}
+    .container{width: 90%; border: none; }
+    .socialMedia a img{margin: 0 0.1em;}
+
+
+
+  }
+  

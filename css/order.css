@@ -1,0 +1,78 @@
+.vestenie img{
+    height: 20em;
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    border-radius: 2em;
+    filter: grayscale(0); /* Začiatočná hodnota - žiadne čiernobiele úpravy */
+    transition: filter 0.5s;
+}
+.vestenie{
+    padding: 0;
+}
+.vestenie .overlay {
+    position: absolute;
+    top: 50%; /* Umiestnenie textu odhora */
+    left: 50%; /* Umiestnenie textu zľava */
+    transform: translate(-50%, -50%); /* Presunutie textu na strede fotky */
+    color: white; /* Farba textu */
+    text-align: center; /* Zarovnanie textu na strede */
+    font-family: 'major mono display'; /* Font textu */
+    font-size: 50px; /* Veľkosť textu */
+    background-color: rgba(0, 0, 0, 0.7); /* Farba pozadia textu s priehľadnosťou */
+    padding: 10px; /* Odsadenie textu od okraja pozadia */
+    border-radius: 2em;
+    transition:  0.9s;
+}
+.magia img{
+    padding-top: 10em;
+    height: 20em;
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    border-radius: 2em;
+    filter: grayscale(0); /* Začiatočná hodnota - žiadne čiernobiele úpravy */
+    transition: filter 0.5s;
+}
+.magia{
+    padding: 0;
+    padding-top: 1em;
+}
+body{
+    background-color: #000;
+}
+.magia .overlayii {
+    position: absolute;
+    top: 100%; /* Umiestnenie textu odhora */
+    left: 50%; /* Umiestnenie textu zľava */
+    transform: translate(-50%, -50%); /* Presunutie textu na strede fotky */
+    color: white; /* Farba textu */
+    text-align: center; /* Zarovnanie textu na strede */
+    font-family: 'major mono display'; /* Font textu */
+    font-size: 50px; /* Veľkosť textu */
+    background-color: rgba(0, 0, 0, 0.7); /* Farba pozadia textu s priehľadnosťou */
+    padding: 10px; /* Odsadenie textu od okraja pozadia */
+    border-radius: 2em;
+    transition:  0.9s;
+}
+.overlay a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.overlayii a{ text-decoration: none; color: #ffffff;}
+.overlayii:hover{background-color: #ff01018e;}
+.overlay:hover{background-color: #ff01018e;}
+.vestenie img:hover{filter: grayscale(100%);}
+.magia img:hover{filter: grayscale(100%);}
+@media (max-width: 768px) {
+.vestenie .overlay{top: 35%;}
+.vestenie img{border-radius: 0;}
+.magia .overlayii{top: 85%;}
+.magia img{border-radius: 0;}
+.vestenie img:focus{filter: grayscale(100%);}
+.magia img:focus{filter: grayscale(100%);}
+.overlayii:focus{background-color: #ff01013f;}
+.overlay:focus{background-color: #ff01013f;}
+}
